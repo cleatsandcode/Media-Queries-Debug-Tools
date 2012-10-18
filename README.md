@@ -10,11 +10,11 @@ The css file is designed to be manipulated as needed. Add your specific styles w
 You can also toggle visiblity with the "T" key.
 
 Example config within the head tag:
-'''
+'''html
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 <link rel="stylesheet" type="text/css" href="css-debug.css" />
 '''
 Before the closing body tag:
-'''
+'''html
 <script src="css-debug.min.js"></script>
 '''
