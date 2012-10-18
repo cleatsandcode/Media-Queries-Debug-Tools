@@ -1,0 +1,73 @@
+	/*
+	
+	CSS media queries debug CSS by cleatsandcode.
+	All sizes provided are merely rough guides for devices. Feel free to customise, add and remove as needed.
+	
+	*/
+#viewportInfo{font-family:sans-serif; font-size:10px; position:absolute; top:0px; left:0px;width:100%; min-height:25px; display:block;background-color: rgba(0, 0, 0, 0.5); line-height:25px; margin:0 auto;}
+	#sizeInfo{position: relative; float:right; right:30px;}
+	/*Normal Screens*/
+@media only screen and (min-width: 1025px){
+body::before{
+						content: "Normal Screen (> 1024) active";
+						font-weight: bold;
+						display: block;
+						text-align: center;
+						position: absolute;
+						top: 0;
+						left: 0;
+						right: 0;
+						z-index: 99;
+						font-family:sans-serif; line-height; font-size:12px; line-height:25px; color:#fff;
+					}
+					#viewportInfo{background-color: rgba(0, 0, 0, 0.5);}
+}
+/*Tablet Landscape*/
+@media only screen and (min-width: 900px) and (max-width: 1024px){
+body::before{
+						content: "Tablet landscape media query (900 - 1024) active";
+						font-weight: bold;
+						display: block;
+						text-align: center;
+						position: absolute;
+						top: 0;
+						left: 0;
+						right: 0;
+						z-index: 99;
+						font-family:sans-serif; line-height; font-size:12px; line-height:25px; color:#fff;
+					}
+#viewportInfo{background-color: rgba(28, 102, 176, 0.5);}
+}
+/*Tablet Portrait*/
+@media only screen and (min-width: 768px) and (max-width: 899px){
+body::before{
+						content: "Tablet portrait media query (768 - 899) active";
+						font-weight: bold;
+						display: block;
+						text-align: center;
+						position: absolute;
+						top: 0;
+						left: 0;
+						right: 0;
+						z-index: 99;
+						font-family:sans-serif; line-height; font-size:12px; line-height:25px; color:#fff;
+					}
+					#viewportInfo{background-color: rgba(28, 149, 176, 0.5);}
+}
+/*Mobile*/
+@media only screen and (max-width: 767px){
+body::before{
+						content: "Mobile  (0 - 767) active";
+						font-weight: bold;
+						display: block;
+						text-align: left;
+						font-family:sans-serif; line-height; font-size:12px; line-height:25px; color:#fff;
+						position: absolute;
+						top: 0;
+						left: 0;
+						right: 0;
+						z-index: 99;
+					}
+#viewportInfo{background-color: rgba(186, 15, 15, 0.5);}
+}
+*/end the debug css*/
